@@ -1,0 +1,41 @@
+/* =====================
+   HTML5 Boilerplate/Initializr styles
+   ===================== */
+
+body {
+   padding-top: 50px;
+   padding-bottom: 20px;
+}
+
+/* =====================
+   Author's custom styles
+   ===================== */
+
+#aboutsection img {
+  margin: auto;
+}
+#imageadam {
+  width: 150px;
+  /*border: 1px solid black;*/
+  /*border-radius: 50%;*/
+  margin-top: 2em;
+  /*float: right;*/
+  /*display: inline-block; don't need this and float*/
+}
+#gallery img {
+  width: 100%;
+  margin-bottom: 1em;
+}
+.row {
+  padding-bottom: 4em;
+  padding-top: 4em;
+}
+.light-grey {
+  background-color: #F4F5F6;
+}
+.sky-blue {
+  color: #2595ff;
+}
+.dark-grey-background {
+  background-color: #262F36;
+}
