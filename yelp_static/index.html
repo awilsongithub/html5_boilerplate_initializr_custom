@@ -1,0 +1,137 @@
+<!doctype html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Yelp Static</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDMlHyX8GK8dd67VoG0IKRBHbwUu9o1nEY"></script>
+    <!-- MY STYLES AT END SO THEY OVERRIDE OTHERS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<!-- NAVIGATION WITH SEARCH BOXES -->
+<nav role="navigation">
+  <div class="container">
+      <img src="images/yelp_transparent.png" alt="" />
+      <form role="form">
+        <div class="form-group">
+          <input type="text" placeholder="Find ....">
+        </div>
+        <div class="form-group">
+          <input type="text" placeholder="Near (city or zip)" >
+        </div>
+        <button type="button" name="button"></button>
+
+      </form>
+  </div>
+</nav>
+
+<!-- MAIN CONTENT INCLUDING LISTINGS AND MAP -->
+<main role='main'>
+
+    <!-- FILTERS FOR $ PICKUP ETC -->
+    <section id='filters'>
+      <div class="container">
+          <h1>Best Tacos near South Loop</h1>
+          <p>Filters</p>
+          <button type="button" name="button">$</button>
+          <button type="button" name="button">$$</button>
+          <button type="button" name="button">$$$</button>
+          <button type="button" name="button">$$$$</button>
+          <button type="button" name="button"><i class='material-icons'>schedule</i>Order Now</button>
+          <button type="button" name="button"><i class='material-icons'>schedule</i>Pickup or Delivery</button>
+          <button type="button" name="button"><i class='material-icons'>schedule</i>All Filters</button>
+
+      </div>
+    </section>
+
+    <!-- BUSINESS LIST AND MAP -->
+    <section id='listings'>
+      <div class="container">
+          <div id='listings-text'>
+
+          </div>
+          <div id='listings-map'>
+              <div id='map-info'>
+                  <i class="material-icons">keyboard_arrow_right</i>
+                  <a href="#">Less Map</a>
+              </div>
+              <div id='map-map'>
+
+              </div>
+          </div>
+
+      </div>
+    </section>
+
+
+
+<!-- FOOTER WITH 4 COLUMNS OF LINKS -->
+  <footer role='contentinfo'>
+    <div class="container">
+
+        <!-- flex container for 4 columns (flex items) -->
+        <div class="flex-container">
+            <div class='flex-item'>
+                <h3>Footer Header</h3>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Another item</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Another item</a></li>
+                </ul>
+            </div>
+            <div class='flex-item'>
+                <h3>Footer Header</h3>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Another item</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Another item</a></li>
+                </ul>
+            </div>
+            <div class='flex-item'>
+                <h3>Footer Header</h3>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Another item</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Another item</a></li>
+                </ul>
+            </div>
+            <div class='flex-item'>
+                <h3>Footer Header</h3>
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Another item</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Another item</a></li>
+                </ul>
+            </div>
+
+        </div>
+
+
+
+    </div> <!-- end container -->
+  </footer>
+
+  </main>
+
+  <script type="text/javascript" src='scripts.js'></script>
+</body>
+</html>

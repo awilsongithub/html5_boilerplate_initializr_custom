@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box; /* padding, margin inside width of box element */
+}
+body {
+    font-family: Arial, sans-serif;
+    font-size: 90%;
+}
+nav input, nav button, nav img {
+    float: left;
+    margin: 10px;
+}
+nav {
+    background-color: #C41200;
+    overflow: auto;
+    height:
+}
+.container {
+    width: 960px;
+    margin: auto;
+}
+.material-icons {
+    vertical-align: middle;
+    font-size: 18px;
+    line-height: .6;
+    padding-right: 4px;
+}
+#filters {
+    background-color: #F5F5F1;
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid lightgrey;
+}
+#filters h1 {
+    margin-top: 0px;
+    padding-top: .83em;
+    margin-bottom: 8px;
+}
+#filters p {
+    margin-bottom: -10px;
+}
+input[type=text] {
+    width: 300px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: white;
+    background-image: url('images/search-icon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding: 10px 20px 10px 40px;
+    margin-top: 20px;
+}
+button {
+    background-color: white;
+    border: 1px solid lightgrey;
+    /*color: white;*/
+    padding: 8px 12px;
+    text-decoration: none;
+    margin: 4px 1px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+nav button:hover {
+    background-color: #E50A04;
+}
+nav button {
+    background-color: #C41200;
+    background-image: url('images/search-icon.png');
+    background-position: 12px 10px;
+    background-repeat: no-repeat;
+    padding: 20px 24px;
+    margin-top: 20px;
+}
+#listings {
+    padding: 10px 0 10px 0;
+    border-bottom: 1px solid lightgrey;
+    overflow: auto;
+}
+#listings-text {
+    float: left;
+    width: 300px;
+    background-color: lightgrey;
+    height: 800px;
+    margin-right: 30px;
+}
+#listings-map {
+    float: left;
+    width: 615px;
+    /*background-color: green;*/
+    /*height: 500px;*/
+    display: flex;
+    flex-direction: column;
+    border: 1px solid grey;
+
+}
+#map-info {
+    height: 43px;
+    border-bottom: 1px solid lightgrey;
+
+}
+#map-map {
+    height: 500px;
+}
+#listings-map img {
+    width: 100%;
+}
+footer {
+    clear: both;
+    background-color: #F5F5F1;
+}
+footer h3 {
+    color: #C41200;
+}
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+li {
+    padding-bottom: 5px;
+}
+a {
+    color: #3B65A7;
+    text-decoration: none;
+}
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.flex-item {
+    flex-basis: 10%;
+    flex-grow: 1;
+}
+
+
+
+/*
+TO BE ADDED
+overflow: auto so div w floats doesn't shrink
+nav
+    ul list-style-type: none, lis float: left, a display: block, pading, margin
+2 columns page with floats left and width %s
+clear: both
+
+
+*/
