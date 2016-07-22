@@ -4,16 +4,52 @@
 body {
     font-family: Arial, sans-serif;
     font-size: 90%;
+    margin: 0px;
 }
 nav input, nav button, nav img {
     float: left;
-    margin: 10px;
+    margin: 8px;
+}
+nav button {
+    padding: 18px 22px;
+    margin-top: 20px;
+    border: .5px solid black;
+}
+nav img {
+    margin-left: 0px;
 }
 nav {
     background-color: #C41200;
     overflow: auto;
     height:
 }
+#nav-menu {
+    clear: both;
+    margin: 0px 0px 10px 121px;
+}
+#nav-menu li {
+    display: inline;
+
+    font-weight: bold;
+    font-size: 95%;
+    padding-right: 12px;
+}
+#nav-menu a, #nav-menu a:hover {
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    /*color: #fff;
+    display: block;
+    padding: 0 8px;
+    font-size: 13px;
+    line-height: 1.38462em;
+    font-weight: bold;
+    line-height: 21px;*/
+}
+#nav-menu li:hover {
+    background-color: #991C0F;
+}
+
 .container {
     width: 960px;
     margin: auto;
@@ -38,9 +74,9 @@ nav {
     margin-bottom: -10px;
 }
 input[type=text] {
-    width: 300px;
+    width: 350px;
     box-sizing: border-box;
-    border: 2px solid #ccc;
+    border: none;
     border-radius: 4px;
     font-size: 14px;
     background-color: white;
@@ -48,7 +84,8 @@ input[type=text] {
     background-position: 10px 10px;
     background-repeat: no-repeat;
     padding: 10px 20px 10px 40px;
-    margin-top: 20px;
+    margin-top: 12px;
+    margin-right: 0px;
 }
 button {
     background-color: white;
@@ -61,6 +98,34 @@ button {
     border-radius: 4px;
     font-size: 14px;
     margin-top: 20px;
+}
+.nav-items {
+    border: 1px solid black;
+    margin-top: 12px;
+    border-radius: 4px;
+    /*height: 50px;
+    width: 50px;*/
+
+}
+#avatar-btn {
+    background-image: url(images/adam.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: initial;
+    margin-right: -10px;
+    margin-top: 0px;
+}
+#price-btn-1 {
+    border-radius: 4px 0px 0px 4px;
+    margin-right: -2px;
+    margin-right: -6px;
+}
+#price-btn-2, #price-btn-3 {
+    border-radius: 0px;
+    margin-right: -6px;
+}
+#price-btn-4 {
+    border-radius: 0px 4px 4px 0px;
 }
 
 nav button:hover {
@@ -82,7 +147,7 @@ nav button {
 #listings-text {
     float: left;
     width: 300px;
-    background-color: lightgrey;
+    /*background-color: lightgrey;*/
     height: 800px;
     margin-right: 30px;
 }
@@ -93,12 +158,14 @@ nav button {
     /*height: 500px;*/
     display: flex;
     flex-direction: column;
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
 
 }
 #map-info {
     height: 43px;
     border-bottom: 1px solid lightgrey;
+    background-color: #F5F5F1;
+    padding-top: 12px;
 
 }
 #map-map {
@@ -125,6 +192,9 @@ a {
     color: #3B65A7;
     text-decoration: none;
 }
+a:hover {
+    text-decoration: underline;
+}
 .flex-container {
     display: flex;
     flex-direction: row;
@@ -134,6 +204,24 @@ a {
     flex-basis: 10%;
     flex-grow: 1;
 }
+.listing-box {
+    padding: 15px 10px 15px 0px;
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    overflow: auto;
+    line-height: 10%;
+}
+.listing-img {
+    float: left;
+    margin-right: 10px;
+    border-radius: 4px;
+}
+.listing-title {
+    font-size: 1.2em;
+    /*line-height: 90%;*/
+}
+
+
 
 
 
